@@ -1,0 +1,15 @@
+https://rally1.rallydev.com/slm/webservice/v2.0/task?query=((Owner.Name = jason.wood@d2l.com) and (State != Completed))&order=Rank&fetch=true&stylesheet=/slm/doc/webservice/browser
+
+
+https://rally1.rallydev.com/slm/webservice/v2.0/HierarchicalRequirement?query=((Owner.Name = jason.wood@d2l.com) and (State != Completed))&order=Rank&fetch=true&stylesheet=/slm/doc/webservice/browser
+
+((Iteration = null) AND (Ready = True))
+
+https://rally1.rallydev.com/slm/webservice/v2.0/HierarchicalRequirement?query=((Iteration = null) AND (Ready = True))&order=Rank&fetch=true&stylesheet=/slm/doc/webservice/browser
+
+ORCAVENGERS PROJECT
+https://rally1.rallydev.com/slm/webservice/v2.0/project/42960320374
+
+ORCAVENGERS READY BACKLOG
+https://rally1.rallydev.com/slm/webservice/v2.0/HierarchicalRequirement?query=(((Iteration%20=%20null)%20AND%20(Ready%20=%20True))%20AND%20(Project.Name%20=%20%22IME%20-%20Orcavengers%22))&order=Rank&fetch=true&stylesheet=/slm/doc/webservice/browser
+
