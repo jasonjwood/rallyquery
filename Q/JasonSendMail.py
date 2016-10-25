@@ -40,8 +40,8 @@ class SendMail:
             msg = MIMEText(body)
 
             msg['Subject'] = subject
-            msg['From'] = 'jason.wood@d2l.com'
-            msg['To'] = 'jason.wood@d2l.com'
+            msg['From'] = 'mail.from@example.com'
+            msg['To'] = 'mail.to@example.com'
 
             print msg.as_string()
 
